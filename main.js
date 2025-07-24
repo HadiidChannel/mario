@@ -22,7 +22,7 @@ let player, cursors, platforms;
 function preload() {
   this.load.image('tiles', 'assets/tileset.png');
   this.load.tilemapTiledJSON('map', 'assets/map.json');
-  this.load.spritesheet('player', 'assets/player.png', { frameWidth: 15, frameHeight: 32 });
+  this.load.spritesheet('player', 'assets/player.png', { frameWidth: 32, frameHeight: 32 });
 }
 
 function create() {
